@@ -1,0 +1,12 @@
+utils
+argparse
+
+opencv-python
+numpy
+
+pywin32
+pyautogui
+requests
+pyaudio
+wave
+pillow
