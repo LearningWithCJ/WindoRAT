@@ -746,7 +746,7 @@ def client(ip, port):
                 sendall(obj, "Wrong arguments")     
         elif msg[0].strip() == "sendFile":
             if CFsL():
-                sendall(obj, f"sendFile {" ".join(msg[1:])}")
+                sendall(obj, "sendFile {}".format(" ".join(msg[1:])))
                 sendFile(obj)
             else:
                 sendall(obj, "Set files location.") 
